@@ -1,0 +1,45 @@
+{
+  "name": "@wangxiaoxiao45/utils",
+  "version": "1.0.0",
+  "description": "JavaScript常用函数库 工具集",
+  "main": "dist/utils.min.js",
+  "scripts": {
+    "build": "node script/build-pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangxiaoxiao45/utils.git"
+  },
+  "keywords": [
+    "utils",
+    "util",
+    "tool",
+    "tools"
+  ],
+  "files": ["dist","src","package.json", "README"],
+  "author": {
+    "name": "wangxiaoxiao",
+    "email": "wxx90n@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangxiaoxiao45/utils/issues"
+  },
+  "homepage": "https://github.com/wangxiaoxiao45/utils#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.2",
+    "copy": "^0.3.2",
+    "ora": "^3.4.0",
+    "rimraf": "^3.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "babel-preset-stage-2": "^6.24.1",
+    "js-cookie": "^2.2.1"
+  }
+}
