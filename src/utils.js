@@ -469,7 +469,12 @@ let utils = {
         }
         return obj;
     },
-
+    /**
+     * 两个数组交叉合并
+     * @param ary
+     * @param ary2
+     * @returns {*[]}
+     */
    aryJoinAry : (ary, ary2) => {
     const itemAry = [];
     let minLength;
