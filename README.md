@@ -12,12 +12,12 @@ JavaScript常用函数库
 
 ### 直接用  <code style='color: #d63200'>&lt;script&gt;</code>  引入
 
-直接下载并用 `<script>` 标签引入，`jutils` 会被注册为一个全局变量。
+直接下载并用 `<script>` 标签引入，`utils` 会被注册为一个全局变量。
 
 ``` html
-<script src="jutils.min.js"></script>
+<script src="utils.min.js"></script>
 <script>
-  var browser = jutils.getBrowserInfo()
+  var browser = utils.getBrowserInfo()
 </script>
 ```
 
@@ -33,7 +33,7 @@ JavaScript常用函数库
 
 ### NPM
 
-在 jutils 应用于大型项目时推荐使用 NPM 安装。NPM 能很好地和 webpack 模块打包器配合使用。
+在 utils 应用于大型项目时推荐使用 NPM 安装。NPM 能很好地和 webpack 模块打包器配合使用。
 
 ``` bash
 # 最新稳定版
